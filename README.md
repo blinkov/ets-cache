@@ -6,6 +6,7 @@ Convenient Erlang caching on top of ETS
 * As thin as possible wrapper around ETS
 * Support for arbitrary keys and values
 * Set operation can specify expiration time after which value will be invalidated
+* No external dependencies
 
 ## Public API
 
