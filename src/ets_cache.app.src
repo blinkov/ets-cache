@@ -1,0 +1,12 @@
+{application, ets_cache, [
+	{description, "Convenient Erlang caching on top of ETS"},
+	{vsn, "0.1"},
+	{modules, []},
+	{registered, [ets_cache_sup]},
+	{applications, [
+		kernel,
+		stdlib
+	]},
+	{mod, {ets_cache, []}},
+	{env, []}
+]}.
